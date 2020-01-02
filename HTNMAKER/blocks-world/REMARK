@@ -1,0 +1,1 @@
+The memory leakage occurs on instance 1, 2, 7, 9, 23, 25, etc. in the Blocks-World-Reverse domain, when we call the HTN-solver2 of HTN-Maker and SHOP2. In this case, they are considered as "unsolved". So, the percentage of the instances solved decreases with the method set growing.  

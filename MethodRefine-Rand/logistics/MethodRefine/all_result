@@ -1,0 +1,23 @@
+logistics_benchmark-mid
+iteration	methods	solved
+
+logistics_benchmark-low
+iteration	methods	solved
+1	5	11
+2	7	26
+3	8	13
+4	9	19
+5	30	28
+6	34	28
+7	37	28
+8	38	28
+9	41	28
+
+logistics_benchmark-high
+iteration	methods	solved
+1	5	22
+2	9	28
+3	10	28
+4	2	50
+5	2	50
+

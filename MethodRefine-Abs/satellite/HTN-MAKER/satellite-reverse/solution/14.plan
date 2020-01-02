@@ -1,0 +1,13 @@
+( defplan Satellite Prob14
+	( !SWITCH_ON inst35 sate3 )
+	( !CALIBRATE sate3 inst35 direc2 )
+	( !TAKE_IMAGE sate3 direc2 inst35 mode3 )
+	( !TURN_TO sate3 direc5 direc2 )
+	( !TAKE_IMAGE sate3 direc5 inst35 mode3 )
+	( !SWITCH_ON inst12 sate1 )
+	( !CALIBRATE sate1 inst12 direc2 )
+	( !TURN_TO sate1 direc1 direc2 )
+	( !TAKE_IMAGE sate1 direc1 inst12 mode1 )
+	( !TURN_TO sate3 direc3 direc5 )
+	( !TAKE_IMAGE sate3 direc3 inst35 mode3 )
+)

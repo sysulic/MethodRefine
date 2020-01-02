@@ -1,0 +1,10 @@
+( defplan Blocks4 Prob97
+	( !UNSTACK block2 block3 )
+	( !STACK block2 block1 )
+	( !UNSTACK block3 block4 )
+	( !STACK block3 block2 )
+	( !PICKUP block4 )
+	( !STACK block4 block3 )
+	( !PICKUP block5 )
+	( !STACK block5 block4 )
+)

@@ -1,0 +1,9 @@
+( defplan Satellite Prob90
+	( !SWITCH_ON inst22 sate2 )
+	( !TURN_TO sate2 direc5 direc1 )
+	( !CALIBRATE sate2 inst22 direc5 )
+	( !TURN_TO sate2 direc2 direc5 )
+	( !TAKE_IMAGE sate2 direc2 inst22 mode2 )
+	( !TURN_TO sate2 direc4 direc2 )
+	( !TAKE_IMAGE sate2 direc4 inst22 mode2 )
+)

@@ -1,0 +1,110 @@
+( defdomain satellite
+  (
+
+    ( :operator ( !TURN_TO ?s ?d_new ?d_prev )
+      (
+        ( satellite ?s )
+        ( direction ?d_new )
+        ( direction ?d_prev )
+        ( pointing ?s ?d_prev )
+        ( different ?d_new ?d_prev ) 
+      )
+      (
+        ( pointing ?s ?d_prev )
+      )
+      (
+        ( pointing ?s ?d_new )
+      )
+    )
+
+    ( :operator ( !SWITCH_ON ?i ?s )
+      (
+        ( instrument ?i )
+        ( satellite ?s )
+        ( on_board ?i ?s )
+        ( power_avail ?s )
+      )
+      (
+        ( power_avail ?s )
+        ( calibrated ?i )
+      )
+      (
+        ( power_on ?i )
+      )
+    )
+
+    ( :operator ( !SWITCH_OFF ?i ?s )
+      (
+        ( instrument ?i )
+        ( satellite ?s )
+        ( on_board ?i ?s )
+        ( power_on ?i )
+      )
+      (
+        ( power_on ?i )
+      )
+      (
+        ( power_avail ?s )
+      )
+    )
+
+    ( :operator ( !CALIBRATE ?s ?i ?d )
+      (
+        ( satellite ?s )
+        ( instrument ?i )
+        ( direction ?d )
+        ( on_board ?i ?s )
+        ( calibration_target ?i ?d )
+        ( pointing ?s ?d )
+        ( power_on ?i )
+        ( not_calibrated ?i )
+      )
+      (
+        ( not_calibrated ?i )
+      )
+      (
+        ( calibrated ?i )
+      )
+    )
+
+    ( :operator ( !TAKE_IMAGE ?s ?d ?i ?m )
+      (
+        ( satellite ?s )
+        ( direction ?d )
+        ( instrument ?i )
+        ( mode ?m )
+        ( calibrated ?i )
+        ( on_board ?i ?s )
+        ( supports ?i ?m )
+        ( power_on ?i )
+        ( pointing ?s ?d )
+        ( power_on ?i )
+      )
+      (
+      )
+      (
+        ( have_image ?d ?m )
+      )
+    )
+
+    ( :operator ( !DO-NOTHING )
+      (
+      )
+      (
+      )
+      (
+      )
+    )
+    ( :method ( GET_IMAGE ?dir ?mode )
+      (
+        ( direction ?dir )
+        ( mode ?mode )
+        ( have_image ?dir ?mode )
+      )
+      (
+        ( !DO-NOTHING )
+      )
+    )
+  )
+)
+

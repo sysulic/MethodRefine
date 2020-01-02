@@ -1,0 +1,67 @@
+( defdomain blocksworld
+  (
+    ( :operator ( !MOVE-B-TO-B ?bm ?bf ?bt )
+      (
+        ( clear ?bm )
+        ( clear ?bt )
+        ( on ?bm ?bf )
+      )
+      (
+        ( clear ?bt )
+        ( on ?bm ?bf )
+      )
+      (
+        ( on ?bm ?bt )
+        ( clear ?bf )
+      )
+    )
+    ( :operator ( !MOVE-B-TO-T ?bm ?bf )
+      (
+        ( clear ?bm )
+        ( on ?bm ?bf )
+      )
+      (
+        ( on ?bm ?bf )
+      )
+      (
+        ( on-table ?bm )
+        ( clear ?bf )
+      )
+    )
+    ( :operator ( !MOVE-T-TO-B ?bm ?bt )
+      (
+        ( clear ?bm )
+        ( clear ?bt )
+        ( on-table ?bm )
+      )
+      (
+        ( clear ?bt )
+        ( on-table ?bm )
+      )
+      (
+        ( on ?bm ?bt )
+      )
+    )
+    ( :operator ( !DO-NOTHING )
+      (
+      )
+      (
+      )
+      (
+      )
+    )
+    ( :method ( MAKE-5PILE ?b1 ?b2 ?b3 ?b4 ?b5 )
+      (
+	( on-table ?b5 )
+        ( on ?b1 ?b2 )
+        ( on ?b2 ?b3 )
+        ( on ?b3 ?b4 )
+        ( on ?b4 ?b5 )
+	( clear ?b1 )
+      )
+      (
+        ( !DO-NOTHING )
+      )
+    )
+  )
+)

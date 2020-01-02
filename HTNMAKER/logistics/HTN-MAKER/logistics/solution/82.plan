@@ -1,0 +1,12 @@
+( defplan Logistics Prob182
+	( !DRIVE-TRUCK t4 l41 l42 c4 )
+	( !LOAD-TRUCK p1 t4 l42 )
+	( !DRIVE-TRUCK t4 l42 l41 c4 )
+	( !UNLOAD-TRUCK p1 t4 l41 )
+	( !LOAD-AIRPLANE p1 a1 l41 )
+	( !FLY-AIRPLANE a1 l41 l21 )
+	( !UNLOAD-AIRPLANE p1 a1 l21 )
+	( !LOAD-TRUCK p1 t2 l21 )
+	( !DRIVE-TRUCK t2 l21 l22 c2 )
+	( !UNLOAD-TRUCK p1 t2 l22 )
+)

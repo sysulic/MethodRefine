@@ -1,0 +1,10 @@
+( defplan Logistics Prob145
+	( !FLY-AIRPLANE a1 l21 l31 )
+	( !LOAD-AIRPLANE p1 a1 l31 )
+	( !FLY-AIRPLANE a1 l31 l11 )
+	( !UNLOAD-AIRPLANE p1 a1 l11 )
+	( !FLY-AIRPLANE a1 l11 l21 )
+	( !LOAD-AIRPLANE p2 a1 l21 )
+	( !FLY-AIRPLANE a1 l21 l11 )
+	( !UNLOAD-AIRPLANE p2 a1 l11 )
+)

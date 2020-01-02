@@ -1,0 +1,5 @@
+( defplan Logistics Prob72
+	( !LOAD-TRUCK p1 t3 l31 )
+	( !DRIVE-TRUCK t3 l31 l32 c3 )
+	( !UNLOAD-TRUCK p1 t3 l32 )
+)

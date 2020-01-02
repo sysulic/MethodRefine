@@ -1,0 +1,8 @@
+( defplan Blocks4 Prob19
+	( !PICKUP block3 )
+	( !STACK block3 block2 )
+	( !PICKUP block4 )
+	( !STACK block4 block3 )
+	( !PICKUP block5 )
+	( !STACK block5 block4 )
+)

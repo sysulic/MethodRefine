@@ -1,0 +1,116 @@
+( defdomain logistics
+  (
+    ( :operator ( !LOAD-TRUCK ?obj ?truck ?loc )
+      (
+        ( OBJ ?obj )
+        ( TRUCK ?truck )
+        ( LOCATION ?loc )
+        ( at ?truck ?loc )
+        ( at ?obj ?loc )
+      )
+      (
+        ( at ?obj ?loc )
+      )
+      (
+        ( in ?obj ?truck )
+      )
+    )
+    ( :operator ( !LOAD-AIRPLANE ?obj ?airplane ?loc )
+      (
+        ( OBJ ?obj )
+        ( AIRPLANE ?airplane )
+        ( LOCATION ?loc )
+        ( at ?obj ?loc )
+        ( at ?airplane ?loc )
+      )
+      (
+        ( at ?obj ?loc )
+      )
+      (
+        ( in ?obj ?airplane )
+      )
+    )
+    ( :operator ( !UNLOAD-TRUCK ?obj ?truck ?loc )
+      (
+        ( OBJ ?obj )
+        ( TRUCK ?truck )
+        ( LOCATION ?loc )
+        ( at ?truck ?loc )
+        ( in ?obj ?truck )
+      )
+      (
+        ( in ?obj ?truck )
+      )
+      (
+        ( at ?obj ?loc )
+      )
+    )
+    ( :operator ( !UNLOAD-AIRPLANE ?obj ?airplane ?loc )
+      (
+        ( OBJ ?obj )
+        ( AIRPLANE ?airplane )
+        ( LOCATION ?loc )
+        ( in ?obj ?airplane )
+        ( at ?airplane ?loc )
+      )
+      (
+        ( in ?obj ?airplane )
+      )
+      (
+        ( at ?obj ?loc )
+      )
+    )
+    ( :operator ( !DRIVE-TRUCK ?truck ?loc-from ?loc-to ?city )
+      (
+        ( TRUCK ?truck )
+        ( LOCATION ?loc-from )
+        ( LOCATION ?loc-to )
+        ( CITY ?city )
+        ( at ?truck ?loc-from )
+        ( in-city ?loc-from ?city )
+        ( in-city ?loc-to ?city )
+        ( different ?loc-from ?loc-to )
+      )
+      (
+        ( at ?truck ?loc-from )
+      )
+      (
+        ( at ?truck ?loc-to )
+      )
+    )
+    ( :operator ( !FLY-AIRPLANE ?airplane ?loc-from ?loc-to )
+      (
+        ( AIRPLANE ?airplane )
+        ( AIRPORT ?loc-from )
+        ( AIRPORT ?loc-to )
+        ( at ?airplane ?loc-from )
+        ( different ?loc-from ?loc-to )
+      )
+      (
+        ( at ?airplane ?loc-from )
+      )
+      (
+        ( at ?airplane ?loc-to )
+      )
+    )
+    ( :operator ( !DO-NOTHING )
+      (
+      )
+      (
+      )
+      (
+      )
+    )
+    ( :method ( DELIVER-PKG ?obj ?dst )
+      (
+        ( OBJ ?obj )
+        ( LOCATION ?dst )
+        ( at ?obj ?dst )
+      )
+      (
+        ( !DO-NOTHING )
+      )
+    )
+  )
+)
+

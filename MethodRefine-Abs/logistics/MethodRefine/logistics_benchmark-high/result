@@ -1,0 +1,250 @@
+training_1.py	0.01345
+2 methods from the frist 1 tree(s)
+2 methods left after removing the duplicate
+1 methods left after reducing
+7 testing instances are solved
+training_2.py	0.010016
+5 methods from the frist 2 tree(s)
+5 methods left after removing the duplicate
+3 methods left after reducing
+7 testing instances are solved
+training_3.py	0.018658
+10 methods from the frist 3 tree(s)
+10 methods left after removing the duplicate
+7 methods left after reducing
+13 testing instances are solved
+training_4.py	0.003845
+12 methods from the frist 4 tree(s)
+12 methods left after removing the duplicate
+8 methods left after reducing
+15 testing instances are solved
+training_5.py	0.000717
+12 methods from the frist 5 tree(s)
+12 methods left after removing the duplicate
+8 methods left after reducing
+15 testing instances are solved
+training_6.py	0.001815
+13 methods from the frist 6 tree(s)
+13 methods left after removing the duplicate
+8 methods left after reducing
+15 testing instances are solved
+training_7.py	0.005432
+15 methods from the frist 7 tree(s)
+13 methods left after removing the duplicate
+8 methods left after reducing
+15 testing instances are solved
+training_8.py	0.00628
+16 methods from the frist 8 tree(s)
+14 methods left after removing the duplicate
+9 methods left after reducing
+15 testing instances are solved
+training_9.py	0.026154
+19 methods from the frist 9 tree(s)
+15 methods left after removing the duplicate
+9 methods left after reducing
+15 testing instances are solved
+training_10.py	0.004478
+20 methods from the frist 10 tree(s)
+16 methods left after removing the duplicate
+9 methods left after reducing
+15 testing instances are solved
+training_11.py	0.015377
+23 methods from the frist 11 tree(s)
+18 methods left after removing the duplicate
+10 methods left after reducing
+15 testing instances are solved
+training_12.py	0.008442
+25 methods from the frist 12 tree(s)
+19 methods left after removing the duplicate
+10 methods left after reducing
+15 testing instances are solved
+training_13.py	0.012269
+28 methods from the frist 13 tree(s)
+21 methods left after removing the duplicate
+12 methods left after reducing
+15 testing instances are solved
+training_14.py	0.018783
+32 methods from the frist 14 tree(s)
+23 methods left after removing the duplicate
+13 methods left after reducing
+15 testing instances are solved
+training_15.py	0.011561
+34 methods from the frist 15 tree(s)
+24 methods left after removing the duplicate
+14 methods left after reducing
+15 testing instances are solved
+training_16.py	0.002527
+35 methods from the frist 16 tree(s)
+24 methods left after removing the duplicate
+14 methods left after reducing
+15 testing instances are solved
+training_17.py	0.025992
+39 methods from the frist 17 tree(s)
+27 methods left after removing the duplicate
+17 methods left after reducing
+16 testing instances are solved
+training_18.py	0.008673
+42 methods from the frist 18 tree(s)
+27 methods left after removing the duplicate
+18 methods left after reducing
+16 testing instances are solved
+training_19.py	0.00429699999999
+43 methods from the frist 19 tree(s)
+27 methods left after removing the duplicate
+18 methods left after reducing
+16 testing instances are solved
+training_20.py	0.013084
+45 methods from the frist 20 tree(s)
+29 methods left after removing the duplicate
+19 methods left after reducing
+16 testing instances are solved
+training_21.py	0.016483
+48 methods from the frist 21 tree(s)
+32 methods left after removing the duplicate
+20 methods left after reducing
+16 testing instances are solved
+training_22.py	0.002253
+49 methods from the frist 22 tree(s)
+32 methods left after removing the duplicate
+20 methods left after reducing
+16 testing instances are solved
+training_23.py	0.005595
+50 methods from the frist 23 tree(s)
+33 methods left after removing the duplicate
+20 methods left after reducing
+16 testing instances are solved
+training_24.py	0.0191579999999
+53 methods from the frist 24 tree(s)
+34 methods left after removing the duplicate
+22 methods left after reducing
+17 testing instances are solved
+training_25.py	0.039666
+57 methods from the frist 25 tree(s)
+36 methods left after removing the duplicate
+24 methods left after reducing
+17 testing instances are solved
+training_26.py	0.008983
+59 methods from the frist 26 tree(s)
+38 methods left after removing the duplicate
+25 methods left after reducing
+17 testing instances are solved
+training_27.py	0.019253
+63 methods from the frist 27 tree(s)
+42 methods left after removing the duplicate
+28 methods left after reducing
+17 testing instances are solved
+training_28.py	0.00608
+64 methods from the frist 28 tree(s)
+43 methods left after removing the duplicate
+29 methods left after reducing
+17 testing instances are solved
+training_29.py	0.011613
+66 methods from the frist 29 tree(s)
+44 methods left after removing the duplicate
+30 methods left after reducing
+17 testing instances are solved
+training_30.py	0.008105
+68 methods from the frist 30 tree(s)
+44 methods left after removing the duplicate
+30 methods left after reducing
+17 testing instances are solved
+training_31.py	0.017683
+72 methods from the frist 31 tree(s)
+45 methods left after removing the duplicate
+31 methods left after reducing
+17 testing instances are solved
+training_32.py	0.00167599999986
+72 methods from the frist 32 tree(s)
+45 methods left after removing the duplicate
+31 methods left after reducing
+17 testing instances are solved
+training_33.py	0.00579799999991
+74 methods from the frist 33 tree(s)
+46 methods left after removing the duplicate
+32 methods left after reducing
+17 testing instances are solved
+training_34.py	0.00256099999979
+75 methods from the frist 34 tree(s)
+46 methods left after removing the duplicate
+32 methods left after reducing
+17 testing instances are solved
+training_35.py	0.00797699999998
+77 methods from the frist 35 tree(s)
+48 methods left after removing the duplicate
+32 methods left after reducing
+17 testing instances are solved
+training_36.py	0.0184959999999
+81 methods from the frist 36 tree(s)
+48 methods left after removing the duplicate
+32 methods left after reducing
+17 testing instances are solved
+training_37.py	0.012187
+83 methods from the frist 37 tree(s)
+50 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_38.py	0.0098539999999
+86 methods from the frist 38 tree(s)
+50 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_39.py	0.0115460000002
+88 methods from the frist 39 tree(s)
+51 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_40.py	0.0122850000002
+90 methods from the frist 40 tree(s)
+51 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_41.py	0.0230310000002
+95 methods from the frist 41 tree(s)
+51 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_42.py	0.00181799999973
+96 methods from the frist 42 tree(s)
+51 methods left after removing the duplicate
+33 methods left after reducing
+17 testing instances are solved
+training_43.py	0.0340470000001
+99 methods from the frist 43 tree(s)
+54 methods left after removing the duplicate
+34 methods left after reducing
+18 testing instances are solved
+training_44.py	0.0186799999997
+102 methods from the frist 44 tree(s)
+56 methods left after removing the duplicate
+35 methods left after reducing
+18 testing instances are solved
+training_45.py	0.013289
+105 methods from the frist 45 tree(s)
+59 methods left after removing the duplicate
+35 methods left after reducing
+18 testing instances are solved
+training_46.py	0.0145430000002
+108 methods from the frist 46 tree(s)
+61 methods left after removing the duplicate
+36 methods left after reducing
+18 testing instances are solved
+training_47.py	0.00502200000028
+109 methods from the frist 47 tree(s)
+62 methods left after removing the duplicate
+36 methods left after reducing
+18 testing instances are solved
+training_48.py	0.00509199999942
+110 methods from the frist 48 tree(s)
+62 methods left after removing the duplicate
+36 methods left after reducing
+18 testing instances are solved
+training_49.py	0.00655999999981
+112 methods from the frist 49 tree(s)
+62 methods left after removing the duplicate
+36 methods left after reducing
+18 testing instances are solved
+training_50.py	0.00860699999976
+114 methods from the frist 50 tree(s)
+63 methods left after removing the duplicate
+36 methods left after reducing
+18 testing instances are solved
