@@ -9,11 +9,11 @@
 		block5 - block
 	)
 	( :init
-		( on block3 block5 )
+		( on block4 block5 )
+		( on-table block3 )
 		( on-table block2 )
 		( on-table block1 )
 		( on-table block5 )
-		( on-table block4 )
 		( clear block3 )
 		( clear block2 )
 		( clear block1 )
