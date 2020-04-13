@@ -25,9 +25,6 @@
 		l52 - location
 		p1 - obj
 		p2 - obj
-		p3 - obj
-		p4 - obj
-		p5 - obj
 	)
 
 	( :init
@@ -49,23 +46,17 @@
 		(truck-at t1 l11)
 		(truck-at t2 l22)
 		(truck-at t3 l32)
-		(truck-at t4 l41)
-		(truck-at t5 l51)
-		(airplane-at a1 l31)
-		(obj-at p1 l21)
-		(obj-at p2 l31)
-		(obj-at p3 l22)
-		(obj-at p4 l31)
-		(obj-at p5 l12)
+		(truck-at t4 l42)
+		(truck-at t5 l52)
+		(airplane-at a1 l41)
+		(obj-at p1 l51)
+		(obj-at p2 l11)
 	)
 
 	( :goal
 		( and
-			(obj-at p1 l11)
+			(obj-at p1 l41)
 			(obj-at p2 l12)
-			(obj-at p3 l12)
-			(obj-at p4 l32)
-			(obj-at p5 l21)
 		)
 	)
 )
