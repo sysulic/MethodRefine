@@ -1,0 +1,1 @@
+Each domain has 100 instances, including 50 training instances(1.htn to 50.htn in htn_prob/ or 1.pddl to 50.pddl in raw_prob/) and 50 testing instances(51.htn to 100.htn in htn_prob/ or 51.pddl to 100.pddl in raw_prob/)
