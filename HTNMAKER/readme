@@ -1,1 +1,3 @@
-Each domain has 100 instances, including 50 training instances(1.htn to 50.htn in htn_prob/ or 1.pddl to 50.pddl in raw_prob/) and 50 testing instances(51.htn to 100.htn in htn_prob/ or 51.pddl to 100.pddl in raw_prob/)
+Each domain includes 75 training instances(1.htn to 75.htn in htn_prob/ or 1.pddl to 75.pddl in raw_prob/) and 
+50 testing instances(76.htn to 125.htn in htn_prob/ or 76.pddl to 125.pddl in raw_prob/)
+corresponding to the instances in the training set and testing set of MethodRefine
