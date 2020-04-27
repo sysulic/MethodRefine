@@ -1,0 +1,2 @@
+command:
+python example.py
